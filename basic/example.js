@@ -10,6 +10,7 @@ import { createStore } from 'redux'
  *
  * In this example, we use a `switch case` statement and strings
  */
+
 function counter(state = 0, action) {
   switch (action.type) {
     case 'INCREMENT':
