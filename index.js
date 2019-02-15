@@ -11,8 +11,6 @@ function counter(state = 0, action) {
 
 const store = Redux.createStore(counter)
 
-console.log(store)
-
 const valueElement = document.getElementById('value')
 
 function render() {
