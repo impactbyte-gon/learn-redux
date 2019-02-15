@@ -1,2 +1,3 @@
-# learn-redux
+# Learn Redux
+
 Learn Redux
