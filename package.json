@@ -6,6 +6,7 @@
   "author": "M Haidar Hanif <git@mhaidarhanif.com>",
   "license": "MIT",
   "dependencies": {
-    "redux": "4.0.1"
+    "redux": "4.0.1",
+    "redux-devtools-extension": "2.13.8"
   }
 }

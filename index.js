@@ -1,8 +1,4 @@
-function counter(state, action) {
-  if (typeof state === 'undefined') {
-    return 0
-  }
-
+function counter(state = 0, action) {
   switch (action.type) {
     case 'INCREMENT':
       return state + 1
@@ -14,6 +10,9 @@ function counter(state, action) {
 }
 
 const store = Redux.createStore(counter)
+
+console.log(store)
+
 const valueElement = document.getElementById('value')
 
 function render() {
